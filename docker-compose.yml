@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  segp-group-t-backend:
+    build:
+      context: ./SEGP-Group-T-Backend
+    ports:
+      - "3001:3001"
+
+
+  segp-group-t-frontend:
+    build:
+      context: ./SEGP-Group-T-Frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - segp-group-t-backend
