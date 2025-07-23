@@ -134,6 +134,3 @@ Contributions are welcome. If you would like to contribute, please fork the repo
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for full terms and conditions.
 
----
-
-Let me know if you'd like a matching `LICENSE` file, CI/CD badges, deployment instructions, or usage screenshots.
